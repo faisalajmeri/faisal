@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+<title> TESLA CARS</title>
+<style>
+      html{
+            background-color:transparent;
+      }
+      .header{
+            text-align: center;
+            background-color:white;
+            color:black;
+            
+
+      }
+      .h1{
+            text-align : center;
+            color : red;
+            border-spacing: 20px;
+            border-color: skyblue;
+            font-style: oblique;
+      }
+      .a{
+            font-size: small;
+            color:mistyrose;
+      }
+      .nav{
+            background-color:transparent;
+            height: 65px;
+            width : auto;
+      }
+      .images{
+            align : center;
+            height: 500px;
+            width: 300px;
+      }
+      .symbol{
+            align: left;
+            height: 150px;
+            width : 200px;
+            position: absolute;
+            top: 30px;
+            left: 8px;
+      }
+      .container {
+            position: relative;
+            text-align: center;
+            color: white;
+      }
+      .container1 {
+            position: relative;
+            text-align: center;
+            color:black;
+      }
+
+      .center{
+            position:absolute;
+            top: 30%;
+            left: 45%;
+      }
+      .left{
+            position: absolute;
+            top: 30%;
+            left: 20%;
+      }
+      .right{
+            position:absolute;
+            top: 30%;
+            right: 15%;
+      }
+      .top-left{
+            position: absolute;
+            top: 10%;
+            left: 20%;
+      }
+      .border{
+            border-style :groove;
+            border-color: black;
+            border-spacing: 5px;
+      }
+      .f1{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+      }
+
+      .h1{
+            color: #cccccc;
+            
+      }
+      .h2{
+            color: #000111;
+      }
+      </style>
+</head>
+<body>
+      <div  class="header">
+            <img class="symbol" src="tesla4.png" style="widows: 20%">
+            <h1>TESLA</h1>
+      <P >Establising  <b>Future</b></P> </div>
+
+      <div class="nav">
+            <table align="center">
+            <th > <a href="#OFFLINE BOOKING" class="border h2"> MODEL Y  </a></th>
+            <th><a href="#OFFER" class="border h2"> MODEL X</a></th>
+            <th><a href="#MOBILE APP" class="border h2"> MODEL 3</a></th>
+            <th><a href="#LOG IN" class="border h2"> MMODEL S </a></th>
+            </table>
+            <table align="right">
+            <th><a href="#SIGN IN" class="tesla-button h2" > SIGN IN</a></th>
+            <th><a href="#SIGN IN" class="tesla-button h2"> SHOP</a></th>
+            </table>      
+      </div>
+      <section>
+            <div class="container">
+            <img class="images" src="tesla2.jpg" style="width:100%">
+                  <div class="center"> 
+                        <P><h1><b>MODEL Y</b></h1>
+                           <a href="#model-y" class="h2">ORDER NOW</a>   
+                        </P></div>
+
+                        <div class="left"> 
+                              <P><h1><b>MODEL X</b></h1>
+                                 <a href="#model-x" class="h2">ORDER NOW</a>   
+                              </P></div>
+
+                              <div class="right"> 
+                                    <P><h1><b>MODEL 3</b></h1>
+                                       <a href="#model-3" class="h2">ORDER NOW</a>   
+                                    </P></div>
+      </div>
+      <div class="container">
+            <img class="images" src="tesla1.jpg" style="width:100%">
+                  <div class="top-left"> 
+                        <P><h1><b>Comming Soon</b></h1>
+                           <a href="#model-x" class="h2">PRE-BOOK NOW</a>   
+                        </P></div>
+      </div>
+      <div class="container1">
+            <img class="images" src="tesla3.jpg" style="width:100%">
+                  <div class="top-left"> 
+                        <p><a><b><h1>POWER EVERYTHING</h1></b></a>
+                           <a >SOLAR AND POWERWALL</a>      <br><br>
+                           <a href="#" class="border h2">ORDER SOLAR ROOF</a>
+                                 <a href="#" class="border h2">ORDER SOLAR PANNEL</a>   
+                        </P></div>
+      </div>        
+  </section>
+
+  <div class="f1" style="width: 100%;" align="center">
+      <a href="#tesla@2020" class="h1">TESLA@2020</a>
+      <a href="#privacy&legal" class="h1">PRIVACY&LEGAL</a>
+      <a href="#CONTACTS" class="h1">CONTACTS</a>
+      <a href="#CAREERS" class="h1">CAREERS</a>
+      <a href="#GETNEW SLETTER" class="h1">GET NEWSLETTER</a>
+      <a href="#FORUMS" class="h1">FORUMS</a>
+      <a href="#locations" class="h1">LOCATIONS</a>  
+  </div>
+
+</body>
+</html>
