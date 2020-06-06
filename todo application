@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TODO application</title>
+<style>
+    html{
+        background-color: black;
+    }
+    .button{
+        text-align: center;
+        background-color:white;
+        color: black;
+        font-size: initial;
+        border-radius: 2px;
+        border:black;
+    }
+    .input{
+        border-radius: 2px;
+        background-color: white;
+        color: black;
+        border-style: solid;
+
+    }
+    .form{
+        align-content: center;
+        text-align: center;
+
+            }
+    .ol{
+        color: white;
+        text-align: center;
+
+    }
+    .h1{
+        color: white;
+        text-align: center;
+    }
+</style>
+
+
+
+
+</head>
+<body>
+    <h1 class="h1">TODO A   pplication</h1>
+    <form id="todoForm" class="form">
+        <input id="todoInput" class="input">
+        <button type="button" onclick="todoList()" class="button">ADD</button>
+    </form>
+    <ol id="todoList" class="ol">
+
+    </ol>
+<script type="text/javascript">
+
+function todoList() {
+    var item = document.getElementById("todoInput").Value;
+    var text= document.createTextNode(item);
+    var newItem = document.createElement("li");
+    newItem.appendChild(text)
+    document.getElementById("todoList").appendChild(newItem)
+
+}
+
+function removeItem(a){
+    a.target.parentElement.removeChild(a.target);
+
+}
+
+</script>
+</body>
+</html>
